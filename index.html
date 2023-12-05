@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+  <title>encrypt/desencrypt</title>
+</head>
+<body>
+  <main>
+ <header>
+   <img src="https://raw.githubusercontent.com/MarianaDavies/encriptador/main/assets/Logo%20(1).png" alt="Logo de Alura">
+   <h1>encrypt/desencrypt</h1>
+ </header>
+ <div class="input-container">
+<textarea name="" id="input" cols="30" rows="10" placeholder="input text" autocapitalize="none"></textarea>
+<p class="warning"><i class="fa-solid fa-circle-exclamation"></i>input minusc</p> 
+ </div>
+ <div class="buttons-contaier">
+  <button class="encrypt" id="btnEncriptar" >encrypt <i class="fa-solid fa-lock"></i></button>
+  <button class="desencrypt" id="btnDesencriptar" >desencrypt <i class="fa-solid fa-lock-open"></i></button>
+  <i class="fa-solid fa-arrow-rotate-right" id="btnRefresh"></i>
+ </div>
+ <div class="text-container">
+   <h2 class="plantilla" id="plantilla">not message</h2>
+   <p id="txtEncriptado"></p>
+   
+ <img src="https://raw.githubusercontent.com/MarianaDavies/encriptador/main/assets/Muñeco.png" alt="Muñeco encriptador Alura" class="muñeco" id="muñeco">
+ </div>
+  </main>
+  <footer>
+    <h6><i class="fa-solid fa-copyright"></i>2040 - me </h6>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
